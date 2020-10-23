@@ -12,7 +12,7 @@ Purpose: Conduct a science-y like expierement on graph traversal methods relatin
 ### Code Used
 
   I mostly used the python search code given in the Russel and Norvig AI:MA textbook. This consisted of a few classes:
-   ```Markup : * Graph Class: Used along with Node Class to constuct graphs with a given adjancy matrix. 
+          * Graph Class: Used along with Node Class to constuct graphs with a given adjancy matrix. 
           * Priority Queue: Implemented priority queue.
           * Problem Class: Abstract class to define problem subclasses.
           * Graph Problem Class: Subclass of Problem where most of the handwritten code is located. The actions and path cost are used to get neighbors in the graph at a node. Also contains all the huristics needed for A* search:
@@ -27,11 +27,11 @@ Purpose: Conduct a science-y like expierement on graph traversal methods relatin
             * hill_climbing
             * simulated_anneling
             * genetic.
- ```
+
   Outside sources of code that I used were: 
-   ```Markup : * GeeksforGeeks website: Kruskal and Primm minmum spanning tree implementation (link in code)
-             * Python-Graph-Gallery website: The shell for the graphs used in analysis section (link in code)
-   ```
+      * GeeksforGeeks website: Kruskal and Primm minmum spanning tree implementation (link in code)
+      * Python-Graph-Gallery website: The shell for the graphs used in analysis section (link in code)
+ 
     
   
 ![globe](https://user-images.githubusercontent.com/66328517/88014096-13b5de00-caec-11ea-8ce0-b342623ddbee.png)
