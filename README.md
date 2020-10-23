@@ -78,9 +78,12 @@ Part 2 deals with solving the TSP problem with A* search and a minimum spanning 
 
 As you can see, the bar heights of MST A* and cheapest edges A* are the same. This means that the difference in path cost is the same between the searches.
 
-## Part 3 Graph
+## Part 3 Graphs
 
 Part 3 involves running only local search algorithms With the local searches being so fast, I was able to run genetic, simmulated annealing, and hill climbing on graphs of a larger size than the last two sections. I ran the searches on graphs of size 25, 27, and 30. It was nice to finally be able to run bigger graphs in a reasonable time because UCS and MST was not run. You can see how fast these algorithms run in the next graph. 
 
 ![image](https://user-images.githubusercontent.com/66328517/97052043-45f13480-154e-11eb-881e-032c1f7ddab6.png)
 
+As you can see, simmulated anneling does not have an bars. This is because it is so fast, the scale of the y axis is too large for a bar to appear at y=.002 which is how fast simulated anneal was on larger graphs. This is kinda cool and incredible it runs so fast while theres no chance I could run MST on large sizes like 25,27, and 30. 
+
+The time increase it takes between these three sizes of graphs is not nearly as exponential as the other A* searches. It looks like you could run local searches on larger size graphs if you update the node names to include names of nodes for larger graphs. I used the alphabet to name the nodes and there are only 26 letters in the alphabet, so for anything more than 26 nodes, I added node names "AA", "BB", "CC", and "DD' to be able to get a 30 node labeled graph. This technique could continue for more nodes, but the code would have to be edited to include "EE","FF", ect.
