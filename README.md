@@ -32,6 +32,8 @@ Outside sources of code that I used were:
   * GeeksforGeeks website: Kruskal and Primm minmum spanning tree implementation (link in code)
   * Python-Graph-Gallery website: The shell for the graphs used in analysis section (link in code)
  
+###Goal
+The goal of using all this code is to randomly generate graphs with different number of nodes, 5, 8, 10, 15, and run all kinds of search algorithms on the generated graphs. Then I can analyse the path costs and time it takes for algorithms to run to determine the differences in search approach. Each search is done in batches of 30 graphs, then we can take the average of the batches to get a pretty good aproximation of the search preformance. 
     
   
 ![globe](https://user-images.githubusercontent.com/66328517/88014096-13b5de00-caec-11ea-8ce0-b342623ddbee.png)
