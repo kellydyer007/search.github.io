@@ -11,7 +11,7 @@ Purpose: Conduct a science-y like expierement on graph traversal methods relatin
   
 ### Code Used
 
-  I mostly used the python search code given in the Russel and Norvig AI:MA textbook. This consisted of a few classes:
+  I mostly used the python search code given in the Russel and Norvig AI:MA textbook. This consisted of a few classes:\n
     Graph Class: Used along with Node Class to constuct graphs with a given adjancy matrix. 
     Priority Queue: Implemented priority queue.
     Problem Class: Abstract class to define problem subclasses.
