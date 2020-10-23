@@ -19,14 +19,15 @@ I mostly used the python search code given in the Russel and Norvig AI:MA textbo
      * cheapest_edges
      * random_edges
      * primm_mst
-     * kruskal_mst.
+     * kruskal_mst
    * Search Algorithms: All the search algorithms, except for MST, came from the AI:MA textbook. They are:
         * A Star
         * best_first
         * uniform_cost
         * hill_climbing
         * simulated_anneling
-        * genetic.
+        * genetic
+        
 Outside sources of code that I used were: 
   * GeeksforGeeks website: Kruskal and Primm minmum spanning tree implementation (link in code)
   * Python-Graph-Gallery website: The shell for the graphs used in analysis section (link in code)
