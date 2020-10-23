@@ -70,10 +70,17 @@ Compares CPU time and wall time for each of the search algorithms
 
 We can tell by this second graph that the difference in CPU and Wall time is not significant. The alorithms are not interrupted when they start, they just finish all the way through in one sitting so the times are almost equivlent. Simmulated anneling, random edges, and genetic algorithms all take very very small amounts of time and run very fast. UCS and MST has been the algorithm that keep my code from running larger size graphs. Even on size 10 I could not let it run long enough to complete. 
 
-```markdown
+## Part 2 Graph
 
+Part 2 deals with solving the TSP problem with A* search and a minimum spanning tree heuristic. The goal of this part is to compare the path costs of MST A* and cheapest edges A*. For all of my graphs that I ran, the difference in path cost between the two searches was virtually non existent. Both of these searches are optimal and find the same path.
 
-  code goes here
-```
+![image](https://user-images.githubusercontent.com/66328517/97051573-653b9200-154d-11eb-9702-e3c4a3f6b0c7.png)
 
+As you can see, the bar heights of MST A* and cheapest edges A* are the same. This means that the difference in path cost is the same between the searches.
+
+## Part 3 Graph
+
+Part 3 involves running only local search algorithms With the local searches being so fast, I was able to run genetic, simmulated annealing, and hill climbing on graphs of a larger size than the last two sections. I ran the searches on graphs of size 25, 27, and 30. It was nice to finally be able to run bigger graphs in a reasonable time because UCS and MST was not run. You can see how fast these algorithms run in the next graph. 
+
+![image](https://user-images.githubusercontent.com/66328517/97052043-45f13480-154e-11eb-881e-032c1f7ddab6.png)
 
