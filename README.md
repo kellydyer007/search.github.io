@@ -50,6 +50,8 @@ For part 1 we were asked to implement A* on random TSP problem using three heuri
   * Random Edges which grabs edge lengths connected to the node, adds them together and used for h(n)
   * Cheapest Remaining Edges which uses cheapset remaining edges for h(n)
 
+For this part I was only about to run graphs of size 5, 7, and 8. Larger graphs exponentially increase the time it takes for uniform cost search and could not be run. I tried to run size 9 and 10 overnight, because I used Google CoLab for this project, it timed out after 3 hours and had to be restarted. Even after restarting at 7:30 AM, the 6 hours I was asleep the code did not finish for size 9 or 10. I got it to finish once for size 9, but this was in the testing phase and I did not gather the data for the graphs at this time. There is a huge leap in computing time for any sizes above size 8 as you can see from the orange bars in the graphs.
+
 My results from running the A* heuristic look like the following graphs:
 
 ### Graph 1
@@ -58,13 +60,15 @@ Compares the nodes exppanded along with the average cost of the path found for e
 
 ![image](https://user-images.githubusercontent.com/66328517/97049910-746d1080-154a-11eb-9744-65b09bd41abd.png)
 
+You can see the huge exponential leap for the number of nodes expanded between just 7 and 8 nodes in the bar graph. The line graph represents the average cost of the path found. Most of the algorithms find a path with similar cost, but hill climbing cost is more due to the nature of how hill climbing takes many steps and may not be optimal. 
+
 ### Graph 2
 
 Compares CPU time and wall time for each of the search algorithms
 
 ![image](https://user-images.githubusercontent.com/66328517/97050026-a67e7280-154a-11eb-93a9-8b59a739b5eb.png)
 
-
+We can tell by this second graph that the difference in CPU and Wall time is not significant. The alorithms are not interrupted when they start, they just finish all the way through in one sitting so the times are almost equivlent. Simmulated anneling, random edges, and genetic algorithms all take very very small amounts of time and run very fast. UCS and MST has been the algorithm that keep my code from running larger size graphs. Even on size 10 I could not let it run long enough to complete. 
 
 ```markdown
 
