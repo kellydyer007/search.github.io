@@ -108,7 +108,9 @@ Even though I couldnt get the larger graphs to complete, you can see the incredi
 
 ### Video Running of Code
 
-Here is a link to a youtube video I uploaded for the requirement of showing I can run my code on my PC.
+Here is a link to a youtube video I uploaded for the requirement of showing I can run my code on my PC. This example runs each search on 30 size 5 graphs and takes the average/min/max of the runs for each search. The output file contains the average of a search run on 30 of the same graphs for each search.
+
+https://youtu.be/jKiN1TZddyY
 
 # Code 
 
