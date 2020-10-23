@@ -1,6 +1,10 @@
 # Search Search and more Search
 
-Page created by Kelly Dyer for CMSC 421 Fall 2020 Professor: William Regli
+Page created by Kelly Dyer for CMSC 421 Fall 2020 Professor: William Regli 
+
+Worked with: Elan Haims, Matt Dovel, and Gary
+
+University of Maryland
 
 Purpose: Conduct a science-y like expierement on graph traversal methods relating back to the traveling salesman problem(TSP). The TSP is given a graph, in this case fully connected, what is the shortest path from a starting city to all other cities in the given graph.
 
