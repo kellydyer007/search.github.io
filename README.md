@@ -39,10 +39,8 @@ The goal of using all this code is to randomly generate graphs with different nu
 
 Once all the searches are ran and the data is collected, I uploaded a csv file with all the data into a Pandas dataframe which looks like below.
   
-![globe](https://user-images.githubusercontent.com/66328517/88014096-13b5de00-caec-11ea-8ce0-b342623ddbee.png)
+![image](https://user-images.githubusercontent.com/66328517/96971557-49030b00-14e3-11eb-82cf-1184dbab9da7.png)
 
-My dataframe is filled with everything needed and looks as follows:
-![image](https://user-images.githubusercontent.com/66328517/88014651-7491e600-caed-11ea-89d6-baf3462519bc.png)
 
 ### Data Tidying
   As you can see in my dataframe, the year variable contains a decimal point that represents when the measurement was made. The decimal is not easy on the eyes and hard to understand when beginning to look at the data. So, I decided to seperate out the year into quarters based on this decimal point. This seperates the year into quarters similar to the fiscal year, [0,.25)=Q1 [.25,.5)=Q2 [.5,.75)=Q3 [.75,1)=Q4. Creating a new variable made grouping and understanding the year eaiser. Other than the year, the data was relatively clean and easy to understand. Below you can see the code I used to create the quarters variable and the final dataframe after tidying. 
