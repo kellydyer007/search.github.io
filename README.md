@@ -7,30 +7,29 @@ Purpose: Conduct a science-y like expierement on graph traversal methods relatin
 
 # Introduction
 
-  This page is all about searching symmetric, full connected graphs to find optimal solutions for the traveling salesman problem.
+This page is all about searching symmetric, full connected graphs to find optimal solutions for the traveling salesman problem.
   
 ### Code Used
 
-  I mostly used the python search code given in the Russel and Norvig AI:MA textbook. This consisted of a few classes:
-  Markup: * Graph Class: Used along with Node Class to constuct graphs with a given adjancy matrix. 
-          * Priority Queue: Implemented priority queue.
-          * Problem Class: Abstract class to define problem subclasses.
-          * Graph Problem Class: Subclass of Problem where most of the handwritten code is located. The actions and path cost are used to get neighbors in the graph at a node. Also contains all the huristics needed for A* search:
-            * cheapest_edges
-            * random_edges
-            * primm_mst
-            * kruskal_mst.
-          * Search Algorithms: All the search algorithms, except for MST, came from the AI:MA textbook. They are:
-            * A Star
-            * best_first
-            * uniform_cost
-            * hill_climbing
-            * simulated_anneling
-            * genetic.
-
-  Outside sources of code that I used were: 
-   Markup: * GeeksforGeeks website: Kruskal and Primm minmum spanning tree implementation (link in code)
-           * Python-Graph-Gallery website: The shell for the graphs used in analysis section (link in code)
+I mostly used the python search code given in the Russel and Norvig AI:MA textbook. This consisted of a few classes:
+  * Graph Class: Used along with Node Class to constuct graphs with a given adjancy matrix. 
+  * Priority Queue: Implemented priority queue.
+  * Problem Class: Abstract class to define problem subclasses.
+  * Graph Problem Class: Subclass of Problem where most of the handwritten code is located. The actions and path cost are used to get neighbors in the graph at a node. Also contains all the huristics needed for A* search:
+     * cheapest_edges
+     * random_edges
+     * primm_mst
+     * kruskal_mst.
+   * Search Algorithms: All the search algorithms, except for MST, came from the AI:MA textbook. They are:
+        * A Star
+        * best_first
+        * uniform_cost
+        * hill_climbing
+        * simulated_anneling
+        * genetic.
+Outside sources of code that I used were: 
+  * GeeksforGeeks website: Kruskal and Primm minmum spanning tree implementation (link in code)
+  * Python-Graph-Gallery website: The shell for the graphs used in analysis section (link in code)
  
     
   
