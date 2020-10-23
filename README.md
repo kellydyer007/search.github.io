@@ -113,8 +113,11 @@ Here is a link to a youtube video I uploaded for the requirement of showing I ca
 # Code 
 
 I have included all the code I needed for this project in the repo. It includes:
-  * search.ipynb   which has all of the functions and code needed to run the search algorithms
-  * graph.ipynb    which has all the graph creation using pandas and matplotlib
-  * .json files    which is all the data I generated from running the search code. 
+  * search.ipynb   
+    * Has all of the functions and code needed to run the search algorithms
+  * graph.ipynb
+    * Has all the graph creation using pandas and matplotlib
+  * .json files 
+    * Comma delimited fies wit all the data I generated from running the search code. 
   
 
