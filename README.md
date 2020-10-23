@@ -41,8 +41,10 @@ Once all the searches are ran and the data is collected, I uploaded a csv file w
   
 ![image](https://user-images.githubusercontent.com/66328517/96971557-49030b00-14e3-11eb-82cf-1184dbab9da7.png)
 
+This dataframe is then grouped by search technique and how many nodes are in the graph. The analysis of the graphs presented next are grouped this way. 
 
-### Data Tidying
+## Part 1 Graphs 
+
   As you can see in my dataframe, the year variable contains a decimal point that represents when the measurement was made. The decimal is not easy on the eyes and hard to understand when beginning to look at the data. So, I decided to seperate out the year into quarters based on this decimal point. This seperates the year into quarters similar to the fiscal year, [0,.25)=Q1 [.25,.5)=Q2 [.5,.75)=Q3 [.75,1)=Q4. Creating a new variable made grouping and understanding the year eaiser. Other than the year, the data was relatively clean and easy to understand. Below you can see the code I used to create the quarters variable and the final dataframe after tidying. 
 ```markdown
   code goes here
