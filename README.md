@@ -45,8 +45,30 @@ This dataframe is then grouped by search technique and how many nodes are in the
 
 ## Part 1 Graphs 
 
-  As you can see in my dataframe, the year variable contains a decimal point that represents when the measurement was made. The decimal is not easy on the eyes and hard to understand when beginning to look at the data. So, I decided to seperate out the year into quarters based on this decimal point. This seperates the year into quarters similar to the fiscal year, [0,.25)=Q1 [.25,.5)=Q2 [.5,.75)=Q3 [.75,1)=Q4. Creating a new variable made grouping and understanding the year eaiser. Other than the year, the data was relatively clean and easy to understand. Below you can see the code I used to create the quarters variable and the final dataframe after tidying. 
+For part 1 we were asked to implement A* on random TSP problem using three heuristic:
+  * h(n)=0 which is just uniform cost serch
+  * Random Edges which grabs edge lengths connected to the node, adds them together and used for h(n)
+  * Cheapest Remaining Edges which uses cheapset remaining edges for h(n)
+
+My results from running the A* heuristic look like the following graphs:
+
+### Graph 1
+
+Compares the nodes exppanded along with the average cost of the path found for each different search algorithm.
+
+![image](https://user-images.githubusercontent.com/66328517/97049910-746d1080-154a-11eb-9744-65b09bd41abd.png)
+
+### Graph 2
+
+Compares CPU time and wall time for each of the search algorithms
+
+![image](https://user-images.githubusercontent.com/66328517/97050026-a67e7280-154a-11eb-93a9-8b59a739b5eb.png)
+
+
+
 ```markdown
+
+
   code goes here
 ```
 
