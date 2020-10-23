@@ -32,7 +32,7 @@ Outside sources of code that I used were:
   * GeeksforGeeks website: Kruskal and Primm minmum spanning tree implementation (link in code)
   * Python-Graph-Gallery website: The shell for the graphs used in analysis section (link in code)
  
-### Goal
+# Goal
 
 The goal of using all this code is to randomly generate graphs with different number of nodes, 5, 8, 10, 15, and run all kinds of search algorithms on the generated graphs. Then I can analyse the path costs and time it takes for algorithms to run to determine the differences in search approach. Each search is done in batches of 30 graphs, then we can take the average of the batches to get a pretty good aproximation of the search preformance. 
     
@@ -96,5 +96,25 @@ The time increase it takes between these three sizes of graphs is not nearly as 
 
 The idea of this final graph is to compare the difference in total cost for MST A* and the local search algorithms. Because I could not get MST A* to run on larger graphs of size 25,27, and 30, we have to go back to comparing graphs of size 5,7, and 8. :( 
 
+![image](https://user-images.githubusercontent.com/66328517/97054932-bfd7ec80-1553-11eb-9094-d24cc0abc221.png)
 
+In this graph you can see that genetic and simmulated anneling algorithm come pretty clost to the optimal MST A* path cost. Hill climbing seems to not do very well in estimating the path cost, perhaps bcause it is not optimal every time. You may be able to get the cost closer to MST A* by doing more random restarts. Simarlly with genetic algorithm, you may still be able to lower the delta by running more iterations. Simmulated anneling does very well at estimating path cost, but like the other two algorithms, as the node size goes up, the difference in path cost also increases.
+
+# Conculsion
+
+This project was actually very intersting to run and look at the time and path cost results. Using the AI:MA code took awhile to understand, but after some tinkering, I think it works pretty well. It is dissapiointing not to be able to get MST A*, or any A* search, to run on larger graphs, even after letting it run overnight. Perhaps if I were to attempt this project again, I wouldnt use Google CoLab and would set up an enviroment on my PC. Using Google CoLab runs my code on the Google virtual machines, which was problematic because they time you out occationally for no understood reason, so my size 10 graphs never completed even after 6 hours of runtime. 
+
+Even though I couldnt get the larger graphs to complete, you can see the incredible logistic increase in the number of nodes expanded between graphs of size 5,7, and 8. With the large jump between sizes 7 and 8, one could understand why size 10 takes so long to run just due to the incredible amount of nodes being expanded. 
+
+### Video Running of Code
+
+Here is a link to a youtube video I uploaded for the requirement of showing I can run my code on my PC.
+
+# Code 
+
+I have included all the code I needed for this project in the repo. It includes:
+  * search.ipynb   which has all of the functions and code needed to run the search algorithms
+  * graph.ipynb    which has all the graph creation using pandas and matplotlib
+  * .json files    which is all the data I generated from running the search code. 
+  
 
