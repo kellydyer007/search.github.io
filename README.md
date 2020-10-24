@@ -2,7 +2,7 @@
 
 Page created by Kelly Dyer for CMSC 421 Fall 2020 Professor: William Regli 
 
-Worked with: Elan Haims, Matt Dovel, and Gary
+Worked with: Elan Haims, Matt Dovel, and Andrew Uhl
 
 University of Maryland
 
