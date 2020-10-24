@@ -73,13 +73,21 @@ Compares CPU time and wall time for each of the search algorithms
 
 We can tell by this second graph that the difference in CPU and Wall time is not significant. The algorithms are not interrupted when they start, they just finish all the way through in one sitting so the times are almost equivalent. Simulated annealing, random edges, and genetic algorithms all take very,  very small amounts of time and run very fast. UCS and MST has been the algorithm that keep my code from running larger size graphs. Even on size 10 I could not let it run long enough to complete. 
 
-## Part 2 Graph
+## Part 2 Graphs
 
 Part 2 deals with solving the TSP problem with A* search and a minimum spanning tree heuristic. The goal of this part is to compare the path costs of MST A* and cheapest edges A*. For all of my graphs that I ran, the difference in path cost between the two searches was virtually non existent. Both of these searches are optimal and find the same path.
+
+### Graph 1
 
 ![image](https://user-images.githubusercontent.com/66328517/97051573-653b9200-154d-11eb-9702-e3c4a3f6b0c7.png)
 
 As you can see, the bar heights of MST A* and cheapest edges A* are the same. This means that the difference in path cost is the same between the searches.
+
+### Graph 2
+
+![image](https://user-images.githubusercontent.com/66328517/97066289-2d9b0d00-1582-11eb-9fa0-d156a3d30bcb.png)
+
+This graph shows that MST dominates cheapest edges because although they have the same path cost delta, MST expanded less nodes than cheapest edges. This may be hard to see but as the size of the graph goes up MST expands less nodes than cheapest edges. 
 
 ## Part 3 Graphs
 
